@@ -73,7 +73,6 @@ This repository covers the complete backend engineering spectrum, as outlined in
 - **Case Studies**: Analyzing systems like Netflix, Uber, and Twitter.
 
 ---
-```
 ## 🛠️ Tech Stack & Tools
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
