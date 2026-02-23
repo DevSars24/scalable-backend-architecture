@@ -1,0 +1,95 @@
+Backend Engineering
+│
+├── 1. Programming Foundation
+│   ├── DSA (problem solving)
+│   ├── Clean Code
+│   ├── OOP / SOLID
+│   ├── Design Patterns
+│   └── Concurrency Basics
+│
+├── 2. Backend Core
+│   ├── HTTP Internals
+│   ├── REST / GraphQL
+│   ├── API Design
+│   ├── Authentication & Authorization
+│   ├── Middleware Architecture
+│   ├── Input Validation
+│   ├── Error Handling Strategy
+│   ├── Logging & Observability
+│   └── API Versioning
+│
+├── 3. Databases
+│   ├── SQL Deep Dive
+│   ├── Indexing Strategy
+│   ├── Query Optimization
+│   ├── Transactions & Isolation
+│   ├── Connection Pooling
+│   ├── NoSQL Modeling
+│   ├── Sharding
+│   ├── Replication
+│   └── Data Migration
+│
+├── 4. Caching Layer
+│   ├── Redis Internals
+│   ├── Cache Invalidation
+│   ├── LRU / LFU
+│   ├── Write-through / Write-back
+│   ├── Distributed Cache
+│   └── Cache Consistency
+│
+├── 5. Architecture Styles
+│   ├── Monolithic
+│   ├── Modular Monolith
+│   ├── Microservices
+│   ├── Event-Driven
+│   ├── Serverless
+│   └── Hexagonal Architecture
+│
+├── 6. Distributed Systems
+│   ├── CAP Theorem
+│   ├── Consistency Models
+│   ├── Leader Election
+│   ├── Consensus (Raft basics)
+│   ├── Message Queues
+│   ├── Eventual Consistency
+│   ├── Idempotency
+│   └── Distributed Locks
+│
+├── 7. Scalability & Performance
+│   ├── Load Balancing
+│   ├── Reverse Proxy
+│   ├── Horizontal Scaling
+│   ├── Auto Scaling
+│   ├── Rate Limiting
+│   ├── Backpressure
+│   ├── CDN
+│   └── Latency Optimization
+│
+├── 8. API Testing & Reliability
+│   ├── Unit Testing
+│   ├── Integration Testing
+│   ├── Contract Testing
+│   ├── Load Testing
+│   ├── Stress Testing
+│   ├── Chaos Testing
+│   └── Health Checks
+│
+├── 9. DevOps & Production
+│   ├── Docker
+│   ├── CI/CD
+│   ├── Kubernetes Basics
+│   ├── Environment Management
+│   ├── Secrets Management
+│   ├── Nginx
+│   ├── Monitoring (Prometheus)
+│   ├── Logging (ELK)
+│   └── Cloud (AWS/GCP)
+│
+└── 10. System Design Mastery
+    ├── High Level Design
+    ├── Low Level Design
+    ├── Database Tradeoffs
+    ├── Scaling Patterns
+    ├── Failure Handling
+    ├── Observability
+    └── Real-world Case Studies
