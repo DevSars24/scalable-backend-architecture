@@ -1,6 +1,6 @@
 # 🚀 Backend Engineering Mastery
 
-Welcome to **Backend Docs** — a comprehensive roadmap and knowledge base for mastering the art of backend engineering. This repository is a structured journey through the core concepts, architectures, and tools that power the modern web.
+Welcome to **Backend Docs** — a comprehensive roadmap and knowledge base for mastering the art of backend engineering. This repository is a structured journey through the core concepts, architectures, and tools that power the modern web, from foundational principles to FAANG-level system design.
 
 ---
 
@@ -16,9 +16,9 @@ Welcome to **Backend Docs** — a comprehensive roadmap and knowledge base for m
 
 ---
 
-## 🗺️ Roadmap & Topics
+## 🗺️ Roadmap & Advanced Notes
 
-This repository covers the complete backend engineering spectrum, as outlined in our core roadmap:
+This repository covers the complete backend engineering spectrum. Click on any of the advanced topics below to read the detailed **FAANG-level notes**:
 
 ### 1. 🏗️ Programming Foundation
 - **DSA**: Advanced problem-solving strategies.
@@ -26,53 +26,44 @@ This repository covers the complete backend engineering spectrum, as outlined in
 - **OOP / SOLID**: Mastery of design principles.
 - **Concurrency**: Understanding threads, locks, and async basics.
 
-### 2. 🌐 Backend Core
-- **HTTP Internals**: Deep dive into the web's protocol.
-- **API Design**: REST, GraphQL, and Best Practices.
-- **Security**: AuthN/AuthZ (JWT, OAuth), Input Validation.
-- **Observability**: Logging, Error Handling, and API Versioning.
+### 2. 🌐 [Backend Core](./notes/02_Backend_Core.md)
+- **HTTP Internals, REST vs GraphQL, API Design, Midleware, Security (JWT/OAuth), Error Handling & Observability**.
+👉 **[Read Notes](./notes/02_Backend_Core.md)**
 
-### 3. 🗄️ Databases
-- **SQL**: Deep dive into PostgreSQL/MySQL, Transactions, and Indexing.
-- **NoSQL**: Document/Key-Value modeling (MongoDB, Redis).
-- **Scale**: Sharding, Replication, and Connection Pooling.
+### 3. 🗄️ [Databases](./notes/03_Databases.md)
+- **SQL Deep Dive, Indexing Strategies, Transaction Isolation Levels, Connection Pooling, Sharding, and Replication**.
+👉 **[Read Notes](./notes/03_Databases.md)**
 
-### 4. ⚡ Caching Layer
-- **Redis**: Internals, Invalidation strategies.
-- **Patterns**: Write-through vs. Write-back, LRU/LFU.
-- **Global**: Distributed caching and Consistency models.
+### 4. ⚡ [Caching Layer](./notes/04_Caching_Layer.md)
+- **Redis Internals, Memcached, Cache Invalidation, Eviction Policies, Cache Stampede solutions**.
+👉 **[Read Notes](./notes/04_Caching_Layer.md)**
 
-### 5. 🏛️ Architecture Styles
-- **Monoliths**: From simple to Modular.
-- **Microservices**: Breaking down the monolith.
-- **Modern**: Event-Driven, Serverless, and Hexagonal Architecture.
+### 5. 🏛️ [Architecture Styles](./notes/05_Architecture_Styles.md)
+- **Monoliths, Modular Monoliths, Microservices, Event-Driven Architecture, Serverless, Hexagonal Architecture**.
+👉 **[Read Notes](./notes/05_Architecture_Styles.md)**
 
-### 6. 🔗 Distributed Systems
-- **Theorems**: CAP, PACELC foundations.
-- **Consensus**: Raft, Leader Election, and Idempotency.
-- **Messaging**: Message Queues (RabbitMQ/Kafka) and Eventual Consistency.
+### 6. 🔗 [Distributed Systems](./notes/06_Distributed_Systems.md)
+- **CAP Theorem, Consistency Models, Leader Election (Raft/Paxos), Message Queues (Kafka/RabbitMQ), Distributed Locks**.
+👉 **[Read Notes](./notes/06_Distributed_Systems.md)**
 
-### 7. 🚀 Scalability & Performance
-- **Traffic**: Load Balancing, Reverse Proxies (Nginx).
-- **Scaling**: Horizontal vs. Vertical, CDNs, and Rate Limiting.
-- **Optimization**: Latency reduction and Backpressure.
+### 7. 🚀 [Scalability & Performance](./notes/07_Scalability_Performance.md)
+- **Load Balancing, Auto-Scaling, Rate Limiting (Token/Leaky Bucket), Backpressure, Reverse Proxies (Nginx)**.
+👉 **[Read Notes](./notes/07_Scalability_Performance.md)**
 
-### 8. 🧪 Testing & Reliability
-- **Automated**: Unit, Integration, and Contract testing.
-- **Resilience**: Load, Stress, and Chaos engineering.
-- **Health**: Monitoring and proactive Health Checks.
+### 8. 🧪 [API Testing & Reliability](./notes/08_API_Testing_Reliability.md)
+- **Unit/Integration/Contract Testing, Load vs Stress Testing, Chaos Engineering (Chaos Monkey), Health Checks**.
+👉 **[Read Notes](./notes/08_API_Testing_Reliability.md)**
 
-### 9. 🛠️ DevOps & Production
-- **Containers**: Docker and Kubernetes orchestration.
-- **Cloud**: AWS/GCP infrastructure.
-- **CI/CD**: GitOps and automated deployment pipelines.
+### 9. 🛠️ [DevOps & Production](./notes/09_DevOps_Production.md)
+- **Docker Multi-stage Builds, Kubernetes (K8s) Pods/Services/Deployments, CI/CD, Secrets Management, Observability (ELK, Prometheus)**.
+👉 **[Read Notes](./notes/09_DevOps_Production.md)**
 
-### 10. 🏆 System Design Mastery
-- **HLD/LLD**: Architecting complex real-world systems.
-- **Trade-offs**: Choosing the right database and scaling patterns.
-- **Case Studies**: Analyzing systems like Netflix, Uber, and Twitter.
+### 10. 🏆 [System Design Mastery](./notes/10_System_Design_Mastery.md)
+- **High/Low Level Design, Database Tradeoffs, Scaling Patterns (CQRS, Saga, Outbox), Resiliency Patterns (Circuit Breaker)**.
+👉 **[Read Notes](./notes/10_System_Design_Mastery.md)**
 
 ---
+
 ## 🛠️ Tech Stack & Tools
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -88,9 +79,10 @@ This repository covers the complete backend engineering spectrum, as outlined in
 ## 📈 Learning Progress
 
 - [x] L1: Backend Fundamentals
-- [/] L2: Advanced Databases & Caching
-- [ ] L3: Distributed Systems Architecture
-- [ ] L4: Scalability & DevOps
+- [x] L2: Advanced Databases & Caching
+- [x] L3: Distributed Systems Architecture
+- [x] L4: Scalability & DevOps
+- [x] L5: System Design Mastery
 
 ---
 
